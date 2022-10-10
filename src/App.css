@@ -1,0 +1,31 @@
+.App {
+  width: 100%;
+}
+
+.sectionWrapper {
+  max-width: 1200px;
+  margin: auto;
+  position: relative;
+  padding: 0 25px;
+}
+
+.section {
+  background-image: url("./assets/images/bg_pattern.png");
+  background-size: 90vw auto;
+  background-repeat: no-repeat;
+  background-position: 50%;
+
+}
+
+.hider--overla--filter {
+  filter: blur(20px);
+}
+
+.dummy--ttile {
+  font-size: 50px;
+  color: #f74a85;
+  font-family: 'Jost';
+  text-transform: capitalize;
+  font-weight: 500;
+  margin: 100px 0;
+}

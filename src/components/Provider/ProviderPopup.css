@@ -1,0 +1,121 @@
+.ProviderPopup---option {
+    /* width: 500px; */
+    position: fixed;
+    inset: 0;
+    z-index: 2222222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* .ProviderPopup---option--overlay
+  { background: #080a0a99;
+      inset: 0;
+      position: fixed;
+      z-index: 1111111111;
+  } */
+  
+  span.icon--close--sidebar {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: transparent;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #b1b1b1;
+    color: wheat;
+    cursor: pointer;
+  }
+  
+  .ProviderPopup---option--overlay {
+    /* display: block; */
+    z-index: 111111111;
+    position: fixed;
+    inset: 0;
+
+    backdrop-filter: blur(10px);
+    /* background: #0404049e; */
+  }
+  .ProviderPopup {
+    
+    backdrop-filter: blur(50px);
+
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    padding: 30px;
+    position: relative;
+  }
+  
+  h3.provider--title {
+    font-size: 35px;
+    color: #ffffff;
+    font-family: "Jost";
+    line-height: 45px;
+  }
+  .provider--companies {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .provider--companies .pro--comp--right h3,
+  .provider--companies .pro--comp--left h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
+    line-height: normal;
+    margin: 15px 0;
+    font-family: "Jost";
+  }
+  
+  .provider--companies .pro--comp--right p,
+  .provider--companies .pro--comp--left p {
+    font-family: "Jost";
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .provider--companies .pro--comp--right,
+  .provider--companies .pro--comp--left {
+    border: 2px solid #696e80;
+    border-radius: 10px;
+    padding: 20px 10px;
+    width: 48%;
+  }
+  .pro--comp--right .com--img,
+  .pro--comp--left .com--img {
+      height: 60px;
+      transition: 0.3;
+  
+  }
+  .pro--comp--left .com--img:hover img,
+  .pro--comp--right .com--img:hover img {
+      
+      transform: scale(1.080);
+  }
+  
+  
+  
+  
+  @media screen  and (max-width : 500px){
+    .ProviderPopup{
+      width: 300px;
+    }
+    h3.provider--title{
+      font-size: 25px;
+      margin-top: 10px;
+    }
+    .provider--companies{
+      flex-direction: column;
+    }
+    .provider--companies .pro--comp--right, .provider--companies .pro--comp--left{
+      width: 100%;
+    }
+    .provider--companies .pro--comp--right{
+      margin-top: 10px;
+    }
+  }

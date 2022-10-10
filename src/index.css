@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+
+
+#root {
+  width: 100%;
+}
+
+body {
+  font-family: "Exo 2", sans-serif;
+  text-align: center;
+  background-color: #111423;
+}
+
+.bodyWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.bodyWrapperBlured {
+  filter: blur(20px);
+}
+
+
+/* 
+font-family : 'Jost', sans-serif */
